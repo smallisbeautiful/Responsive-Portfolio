@@ -214,4 +214,56 @@ input[type=submit] {
   cursor: pointer;
   background: #4aaaa5;
   border: 0 none;
+
 }
+
+  @media screen and (max-width: 980px) {
+    .container {
+      width: 66%;
+    }
+    .work {
+      width: 33%;
+    }  
+    #contact-form {
+      width: 66%
+    }  
+  }
+
+  @media screen and (max-width: 768px) {
+    .container {
+      width: 100%;
+    }
+    .work {
+      width: 50%;
+    }  
+    #contact-form {
+      width: 100%
+    }  
+  }
+
+  @media screen and (max-width: 640px) {
+    #masthead {
+      position: static;
+    }
+    #logo {
+      width: 100%;
+    }
+    nav {
+      width: 100%;
+    }
+    .container {
+      width: 100%;
+    }
+    .main-section {
+      clear: both;
+    }
+    .work {
+      width: 100%;
+    }  
+    #contact-form {
+      width: 100%
+    }  
+  }
+  
+
+
