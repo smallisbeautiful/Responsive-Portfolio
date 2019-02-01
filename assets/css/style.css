@@ -214,30 +214,35 @@ input[type=submit] {
   cursor: pointer;
   background: #4aaaa5;
   border: 0 none;
-
 }
 
   @media screen and (max-width: 980px) {
     .container {
       width: 66%;
+      height: auto;
     }
     .work {
       width: 33%;
+      height: auto;
     }  
     #contact-form {
-      width: 66%
+      width: 66%;
+      height: auto;
     }  
   }
 
   @media screen and (max-width: 768px) {
     .container {
       width: 100%;
+      height: auto;
     }
     .work {
       width: 50%;
+      height: auto;
     }  
     #contact-form {
-      width: 100%
+      width: 100%;
+      height: auto;
     }  
   }
 
@@ -247,21 +252,26 @@ input[type=submit] {
     }
     #logo {
       width: 100%;
+      height: auto;
     }
     nav {
       width: 100%;
+      height: auto;
     }
     .container {
       width: 100%;
+      height: auto;
     }
     .main-section {
       clear: both;
     }
     .work {
       width: 100%;
+      height: auto;
     }  
     #contact-form {
-      width: 100%
+      width: 100%;
+      height: auto;
     }  
   }
   
